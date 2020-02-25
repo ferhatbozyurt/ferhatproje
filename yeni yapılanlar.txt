@@ -1,1 +1,5 @@
-version problemini çözüp veri tabaný baðlantýsýný gerçekleþtirdim hocam
+-KULLANICI , ADMÝN VE SOFOR KAYIT ÝÞLEMLERÝ TAMAMLANIP VERÝ TABANINA BAÐLANDI.
+-KULLANICI ÝÇÝN GÝRÝÞ YAP ÝÞLEMLERÝ YAPILDI VE VERÝ TABANINA BAÐLANDI
+-KULLANICI GÝRÝÞ YAPTIÐI ZAMAN VERÝ TABANIYLA EÞLEÞÝP GÝRÝÞ YAPILABÝLÝYOR.
+
+hafta 03 yapýlanlar...
