@@ -82,6 +82,13 @@ $rezcek=$rezsor->fetch(PDO::FETCH_ASSOC);
                   <input type="text" id="first-name" name="rez_arac" value="<?php echo $rezcek['rez_arac'] ?>" required="required" class="form-control col-md-7 col-xs-12">
                 </div>
               </div>
+              <div class="form-group">
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Mazeret <span class="required">*</span>
+                </label>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <input type="text" id="first-name" name="rez_mazeret"  value="<?php echo $rezcek['rez_mazeret'] ?>" required="required" class="form-control col-md-7 col-xs-12">
+                </div>
+              </div>
 
 
 
@@ -89,6 +96,15 @@ $rezcek=$rezsor->fetch(PDO::FETCH_ASSOC);
 
 
               <input type="hidden" name="rez_id" value="<?php echo $rezcek['rez_id'] ?>"> 
+
+
+
+             <div class="ln_solid"></div>
+             <div class="form-group">
+              <div align="right" class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                <button type="submit" name="rezervasyonduzenle" class="btn btn-success">Güncelle</button>
+              </div>
+            </div>
 
 
 

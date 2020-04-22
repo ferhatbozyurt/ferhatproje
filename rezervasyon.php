@@ -37,6 +37,7 @@ $rezsor->execute();
                   <th>Kullanici</th>
                   <th>Şoför</th>
                   <th>Araç</th>
+                  <th>Mazeret</th>
                   
                 </tr>
               </thead>
@@ -56,8 +57,11 @@ $rezsor->execute();
                     <td><?php echo $rezcek['rez_kullanici'] ?></td>
                     <td><?php echo $rezcek['rez_sofor'] ?></td>
                     <td><?php echo $rezcek['rez_arac'] ?></td>
+                    <td><?php echo $rezcek['rez_mazeret'] ?></td>
+
+                    <td><center><a href="rezervasyon-duzenle.php?rez_id=<?php echo $rezcek['rez_id'];?>"><button class="btn btn-primary btn-xs">Düzenle</button></a></center></td>
                     
-                    <td><center><button class="btn btn-danger btn-xs">Mazeret</button></center></td>
+        
                   </tr>
 
                    <?php  }
